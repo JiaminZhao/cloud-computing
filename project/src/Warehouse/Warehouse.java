@@ -1,14 +1,16 @@
+package Warehouse;
+
 import java.util.HashMap;
 
 public class Warehouse {
     /**
-     * The representation of the floor of this Warehouse, with the number of fascia stored in each location.
+     * The representation of the floor of this Warehouse.Warehouse, with the number of fascia stored in each location.
      */
     private HashMap<String, int[][][]> floor = new HashMap<>();
 
 
     /**
-     * Constructs a new Warehouse, with each level containing 30 fascia.
+     * Constructs a new Warehouse.Warehouse, with each level containing 30 fascia.
      */
     public Warehouse() {
         int[][][] zoneA = new int[2][3][4];
@@ -27,7 +29,7 @@ public class Warehouse {
 
 
     /**
-     * @param location A specific location in Warehouse represented as a list of ints
+     * @param location A specific location in Warehouse.Warehouse represented as a list of ints
      *                 containing 4 pieces of information: the
      *                 zone (a string in the range [A..B]),
      *                 the aisle number (an integer
